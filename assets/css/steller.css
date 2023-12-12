@@ -109,6 +109,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 320px;
 }
 
+@media (max-width: 768px) {
+  .foto2 {
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
 .who{
   margin-top: 100px;
 }
@@ -5115,6 +5123,18 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 }
 
+@media (max-width: 768px) {
+  .card-body {
+    width: 100%;
+  }
+  .card-body .imgcard{
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+  }
+}
+
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -5187,11 +5207,13 @@ input[type="button"].btn-block {
   border-radius: calc(0.25rem - 1px);
 }
 
+
 .card-img-top {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
+
 
 .card-img-bottom {
   width: 100%;
@@ -11514,6 +11536,7 @@ pre {
   font-weight: 500;
 }
 
+
 .header .container .infos .title {
   margin-bottom: 0px;
   font-size: 74px;
@@ -11523,6 +11546,29 @@ pre {
 .header .container .infos p {
   margin-top: -5px;
   font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .header .container .infos{
+    margin-top: 10px;
+  }
+  .header .container .infos .subtitle {
+    font-size: 100%;
+  }
+
+  .header .container .infos .title {
+    font-size: 150%;
+  }
+
+  .header .container .infos p {
+    font-size: 85%;
+    margin-top: -3px;
+  }
+
+  .header .container .infos .buttons .btn {
+    width: 100%;
+    margin-top: 5px;
+  }
 }
 
 .header .container .infos .btn {
@@ -11590,6 +11636,12 @@ pre {
   z-index: 999;
   background: #fff;
   box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
+}
+
+@media (max-width:768px){
+  .header .widget{
+    margin-top: 500px;
+  }
 }
 
 .header .widget .widget-item {
